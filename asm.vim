@@ -12,7 +12,6 @@ if version < 600
 elseif exists("b:current_syntax")
 	finish
 endif
-!runtime syntax/java.vim
 let s:cpo_save = &cpo
 set cpo&vim
 
@@ -22,7 +21,7 @@ syn match mnemonic "\<adc\>"
 syn match mnemonic "\<ahx\>"
 syn match mnemonic "\<alr\>"
 syn match mnemonic "\<anc\>"
-syn match mnemonic "\<anc\>"
+syn match mnemonic "\<anc2\>"
 syn match mnemonic "\<and\>"
 syn match mnemonic "\<arr\>"
 syn match mnemonic "\<asl\>"
